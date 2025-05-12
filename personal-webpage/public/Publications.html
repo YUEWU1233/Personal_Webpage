@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yue's Publications</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="home" style="flex: 1">Yue's Page</div>
+      <div class="menu-icon" tabindex="0"></div>
+      <div class="nav-links" style="flex: 3">
+        <a href="about_me.html">About</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Publications.html">Publications</a>
+        <a
+          href="https://yuewu1233.github.io/YUEWU1233/Yue_Page.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CV</a
+        >
+        <a href="Gallery.html">Gallery</a>
+      </div>
+    </nav>
+
+    <!-- Mini profile for mobile -->
+    <div class="mini-profile">
+      <img src="assets/photos/image1.jpg" alt="Yue Wu" class="avatar" />
+      <div>
+        <span class="name">Yue Wu</span>
+        <span class="sidebarmargin">Be kind to one another.</span>
+      </div>
+      <button class="mini-contact-btn" onclick="toggleMiniContactMenu(event)">
+        Contact
+      </button>
+      <div class="mini-contact-menu" id="miniContactMenu">
+        <a href="tel:+41762277376" title="Phone">📞</a>
+        <a href="mailto:yue.wu@epfl.ch" title="Email">📪</a>
+        <a
+          href="https://www.linkedin.com/in/yue-wu-a433871b1"
+          target="_blank"
+          rel="noreferrer"
+          title="LinkedIn"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/woooo_yue/"
+          target="_blank"
+          rel="noreferrer"
+          title="Instagram"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+        <a
+          href="https://www.github.com/YUEWU1233"
+          target="_blank"
+          rel="noreferrer"
+          title="GitHub"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- 左侧边栏 -->
+      <aside class="sidebar">
+        <img src="assets/photos/image1.jpg" alt="Yue Wu" class="avatar" />
+        <h2>Yue Wu</h2>
+        <p class="sidebarmargin">Be kind to one another.</p>
+
+        <div class="contact-info">
+          🏡 Lausanne, Swiss<br />
+          📞 +41 (0)76 227 73 76<br />
+          📪 <a href="mailto:yue.wu@epfl.ch">yue.wu@epfl.ch</a><br />
+          Swiss Permit Status: B <br />
+          <p style="margin-top: 1em">
+            <a
+              href="https://www.github.com/YUEWU1233"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yue-wu-a433871b1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.instagram.com/woooo_yue/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+          </p>
+        </div>
+      </aside>
+
+      <!-- 右侧主体内容 -->
+      <main class="main-content" id="about">
+        <h1 class="h1">Publications</h1>
+
+        <ul class="publication-list">
+          <li>
+            <a
+              class="pub-title"
+              href="https://doi.org/10.1016/j.chemosphere.2024.142083"
+              target="_blank"
+            >
+              Transformation of dissolved organic matter during groundwater
+              arsenite removal using air cathode iron electrocoagulation.
+            </a>
+            <span class="pub-journal"
+              >Chemosphere, Volume 358, June 2024, 142083
+            </span>
+            <span class="pub-authors">
+              Ying Yuan, Jiabao Chen, Hao Zhang,
+              <span class="me">Yue Wu</span>, Yu Xiao, Wan Huang, Ynag Wang, Jun
+              Tang, Fang Zhang
+            </span>
+          </li>
+        </ul>
+
+        <ul class="publication-list">
+          <li>
+            <a
+              class="pub-title"
+              href="https://doi.org/10.1016/j.ecoenv.2024.116228"
+              target="_blank"
+            >
+              Inhibiting effects of humic acid on iron flocculation hindered As
+              removal by electro-flocculation on air cathode iron anode.
+            </a>
+            <span class="pub-journal"
+              >Ecotoxicology and Environmental Safety, Volume 275, 15 April
+              2024, 116228</span
+            >
+            <span class="pub-authors">
+              Fang Zhang, Hao Zhang,
+              <span class="me">Yue Wu</span>, Yu Xiao, Wan Huang, Jun Tang, Ying
+              Yuan, Jiabao Chen
+            </span>
+          </li>
+        </ul>
+
+        <ul class="publication-list">
+          <li>
+            <a
+              class="pub-title"
+              href="https://doi.org/10.1016/j.jhazmat.2018.05.048"
+              target="_blank"
+            >
+              Tradeoff between groundwater arsenite removal efficiency and
+              production in the self-powered air cathode electrocoagulation with
+              different oxygen reduction pathways.
+            </a>
+            <span class="pub-journal"
+              >Journal of Hazardous Materials, Volume 357, 5 September 2018,
+              Pages 138-145</span
+            >
+            <span class="pub-authors">
+              Yanxiao Si, Guanghe Li,
+              <span class="me">Yue Wu</span>, Hao Zhang, Ying Yuan, Haichuan
+              Zhang, Bo Liu, Fang Zhang
+            </span>
+          </li>
+        </ul>
+
+        <h1 class="h1">Patents</h1>
+        <ul class="publication-list">
+          <li>
+            <a
+              class="pub-title"
+              href="https://xueshu.baidu.com/usercenter/paper/show?paperid=11210470f74u0v90kf4m0j00vw187651&site=xueshu_se"
+              target="_blank"
+            >
+              An apparatus and method for strengthening iron - sand filter water
+              purification ability by in-situ hydrogen peroxide production
+              combined with pH self-regulation.
+            </a>
+            <span class="pub-journal"
+              >基于电产双氧水协同pH自调节强化铁的净水装置及方法 (CN113003802A)
+              2021-06-22</span
+            >
+            <span class="pub-authors">
+              Fang Zhang,
+              <span class="me">Yue Wu</span>, Guanghe Li, Deyi Hou
+            </span>
+          </li>
+        </ul>
+
+        <ul class="publication-list">
+          <li>
+            <a
+              class="pub-title"
+              href="https://xueshu.baidu.com/usercenter/paper/show?paperid=1u1p02406y3k0pt0nw0002b0tc638103&site=xueshu_se"
+              target="_blank"
+            >
+              A self-driven ferroelectric flocculation-sand filter water
+              purification device and method thereof.
+            </a>
+            <span class="pub-journal"
+              >基于自驱动电化学类芬顿-絮凝反应的净水装置及方法
+            </span>
+            <span class="pub-authors">
+              Fang Zhang,
+              <span class="me">Yue Wu</span>, Guanghe Li, Deyi Hou
+            </span>
+          </li>
+        </ul>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Yue Wu. All rights reserved.</p>
+      <p>Last updated: 2025-05-08</p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
