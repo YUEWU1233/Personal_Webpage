@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yue's Projects</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="home" style="flex: 1">Yue's Page</div>
+      <div class="menu-icon" tabindex="0"></div>
+      <div class="nav-links" style="flex: 3">
+        <a href="about_me.html">About</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Publications.html">Publications</a>
+        <a
+          href="https://yuewu1233.github.io/YUEWU1233/Yue_Page.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CV</a
+        >
+        <a href="Gallery.html">Gallery</a>
+      </div>
+    </nav>
+
+    <!-- Mini profile for mobile -->
+    <div class="mini-profile">
+      <img src="assets/photos/image1.jpg" alt="Yue Wu" class="avatar" />
+      <div>
+        <span class="name">Yue Wu</span>
+        <span class="sidebarmargin">Be kind to one another.</span>
+      </div>
+      <button class="mini-contact-btn" onclick="toggleMiniContactMenu(event)">
+        Contact
+      </button>
+      <div class="mini-contact-menu" id="miniContactMenu">
+        <a href="tel:+41762277376" title="Phone">📞</a>
+        <a href="mailto:yue.wu@epfl.ch" title="Email">📪</a>
+        <a
+          href="https://www.linkedin.com/in/yue-wu-a433871b1"
+          target="_blank"
+          rel="noreferrer"
+          title="LinkedIn"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/woooo_yue/"
+          target="_blank"
+          rel="noreferrer"
+          title="Instagram"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+        <a
+          href="https://www.github.com/YUEWU1233"
+          target="_blank"
+          rel="noreferrer"
+          title="GitHub"
+        >
+          <img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+            width="24"
+            height="24"
+            style="vertical-align: middle"
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- 左侧边栏 -->
+      <aside class="sidebar">
+        <img src="assets/photos/image1.jpg" alt="Yue Wu" class="avatar" />
+        <h2>Yue Wu</h2>
+        <p class="sidebarmargin">Be kind to one another.</p>
+
+        <div class="contact-info">
+          🏡 Lausanne, Swiss<br />
+          📞 +41 (0)76 227 73 76<br />
+          📪 <a href="mailto:yue.wu@epfl.ch">yue.wu@epfl.ch</a><br />
+          Swiss Permit Status: B <br />
+          <p style="margin-top: 1em">
+            <a
+              href="https://www.github.com/YUEWU1233"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yue-wu-a433871b1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.instagram.com/woooo_yue/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <picture>
+                <source
+                  media="(prefers-color-scheme: dark)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg
+                  "
+                />
+                <source
+                  media="(prefers-color-scheme: light)"
+                  srcset="
+                    https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg
+                  "
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
+                  width="32"
+                  height="32"
+                />
+              </picture>
+            </a>
+          </p>
+        </div>
+      </aside>
+
+      <!-- 右侧主体内容 -->
+      <main class="main-content" id="about">
+        <button
+          class="back-to-gallery"
+          onclick="window.location.href='gallery.html'"
+        >
+          &larr; Back to Gallery
+        </button>
+        <div class="photo-carousel" id="gallery-carousel">
+          <button class="carousel-arrow left-arrow" aria-label="Previous photo">
+            &lt;
+          </button>
+          <img
+            src="assets/photos/Hungary.jpg"
+            alt="Hungary Photo 1"
+            class="carousel-img"
+            loading="lazy"
+            style="object-fit: contain; background: #f8f8f8"
+          />
+          <button class="carousel-arrow right-arrow" aria-label="Next photo">
+            &gt;
+          </button>
+        </div>
+        <h1 class="gallery-title">Hungary</h1>
+        <div class="gallery-content"></div>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Yue Wu. All rights reserved.</p>
+      <p>Last updated: 2025-05-08</p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+    <script>
+      const hungaryPhotos = [
+        "assets/photos/Gallery3.jpg",
+        "assets/photos/Hungary.jpg",
+      ];
+      startGalleryCarousel(hungaryPhotos, "gallery-carousel");
+    </script>
+  </body>
+</html>
