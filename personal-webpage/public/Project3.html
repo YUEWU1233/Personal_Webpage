@@ -173,7 +173,65 @@
 
       <!-- 右侧主体内容 -->
       <main class="main-content" id="about">
+        <button
+          class="back-to-gallery"
+          onclick="window.location.href='Projects.html'"
+        >
+          &larr; Back to Projects
+        </button>
         <h1 class="h1">Machine Learning for French Text Analyzing</h1>
+        <img
+          src="assets/photos/project3_1.jpg"
+          alt="French"
+          class="project-photo"
+        />
+        <p class="project-highlight">
+          This project involved building a machine learning model to assess the
+          difficulty level of French texts (from A1 to C2) for language
+          learners. Several algorithms were tested and optimized to ensure
+          accurate predictions. An interactive interface was developed using
+          Streamlit, allowing users to input any French text and instantly
+          receive a difficulty level assessment, making it a practical tool for
+          language learners and educators.
+        </p>
+        <p class="project-content">
+          This project was designed to assist language learners of French by
+          accurately classifying the CEFR difficulty level (A1 to C2) of written
+          French texts. The project followed a comprehensive machine learning
+          pipeline, beginning with data preparation and feature extraction using
+          advanced NLP models. We applied pre-trained Transformer models—BERT
+          and CamemBERT—to extract rich semantic and syntactic features from
+          text. The dataset was split into training and validation sets, with
+          categorical CEFR levels mapped to numeric labels for classification.
+          Feature vectors were scaled using StandardScaler, and multiple machine
+          learning algorithms were evaluated, including SVM, Random Forest,
+          LightGBM, and MLP. Among them, the SVM model achieved the highest
+          overall accuracy and F1-score. To enhance model generalization, we
+          employed data augmentation techniques such as back translation and
+          NLP-based methods (e.g., synonym replacement, random
+          insertion/deletion). These significantly improved model performance,
+          especially for MLP, which reached an F1-score of 0.807. Hyperparameter
+          tuning using GridSearchCV further optimized Random Forest and Extra
+          Trees classifiers. Additionally, we implemented ensemble learning by
+          averaging predictions from both BERT and CamemBERT models, leveraging
+          their respective strengths in multilingual and French-specific
+          contexts. The final model achieved over 0.6 accuracy on a separate
+          test set. </br> 
+          We integrated the best-performing model into a Streamlit web
+          application. This interactive interface allows users to input French
+          texts and instantly receive predicted difficulty levels, providing a
+          practical and accessible tool for learners, teachers, and content
+          creators in the language education space.
+        </p>
+
+        <a
+          href="https://github.com/YUEWU1233/ML_French_Blancpain"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Link</a
+        >
+
+
       </main>
     </div>
 
