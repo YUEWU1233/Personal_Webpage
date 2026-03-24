@@ -173,62 +173,52 @@
 
       <!-- 右侧主体内容 -->
       <main class="main-content" id="about">
-        <h1 class="h1">Projects</h1>
-        <div class="card-grid">
-          <div
-            class="card"
-            onclick="window.location.href='Project4.html'"
-            style="cursor: pointer"
-          >
-            <img
-              src="assets/photos/project4.png"
-              alt="Project 0"
-              class="card-img"
-            />
-            <div class="card-title">Digital Product Passport and Dynamic Carbon Calculator for Logitech</div>
-          </div>
-          <div
-            class="card"
-            onclick="window.location.href='Project1.html'"
-            style="cursor: pointer"
-          >
-            <img
-              src="assets/photos/project1.jpg"
-              alt="Project 1"
-              class="card-img"
-            />
-            <div class="card-title">Carbon Reduction Project for Sonceboz</div>
-          </div>
-          <div
-            class="card"
-            onclick="window.location.href='Project2.html'"
-            style="cursor: pointer"
-          >
-            <img
-              src="assets/photos/project2.jpg"
-              alt="Project 2"
-              class="card-img"
-            />
-            <div class="card-title">
-              Life Cycle Assessment for Bio Lab Tube Comparison
-            </div>
-          </div>
-          <div
-            class="card"
-            onclick="window.location.href='Project3.html'"
-            style="cursor: pointer"
-          >
-            <img
-              src="assets/photos/project3.jpg"
-              alt="Project 3"
-              class="card-img"
-            />
-            <div class="card-title">
-              Machine Learning for French Text Analyzing
-            </div>
-          </div>
-          <!-- 可继续添加更多项目 -->
-        </div>
+        <button
+          class="back-to-gallery"
+          onclick="window.location.href='Projects.html'"
+        >
+          &larr; Back to Projects
+        </button>
+        <h1 class="h1">
+          Logitech: Digital Product Passport & Dynamic Carbon Calculation for Sustainable Product Design
+        </h1>
+        <img
+          src="assets/photos/DPP.jpg"
+          alt="DPP"
+          class="project-photo"
+        />
+        <p class="project-highlight">
+          This project is part of Logitech's broader decarbonization initiative, aiming to enhance product-level transparency and sustainability. It focuses on developing a Digital Product Passport (DPP) that integrates carbon footprint data, lifecycle information, and user interaction, supporting Logitech’s transition toward low-carbon and circular product design.
+        </p>
+        
+        <p class="project-content">
+          This project centers on the design and implementation of a Digital Product Passport (DPP) system for Logitech products, with a strong focus on carbon transparency and lifecycle sustainability.
+        </p>
+        <p class="project-content">
+          At its core, I developed a dynamic carbon emission calculator that leverages Logitech’s internal carbon database to estimate product-level emissions across the full lifecycle. Unlike static carbon labels, this model incorporates real-world usage scenarios, including product lifespan, repair frequency, and replacement behavior, enabling more accurate and scenario-based carbon assessments.
+        </p>
+        <p class="project-content">
+          Building on this, I designed a time-based decarbonization framework, identifying key emission hotspots and evaluating potential reduction pathways, including alternative materials, energy efficiency improvements, and circular design strategies.
+        </p>
+        <p class="project-content">
+          To enhance accessibility and user engagement, I also prototyped a Digital Product Passport interface (using React), which integrates:
+        </p>
+        <p class="project-content">
+          <li>Product carbon footprint data</li>
+          <li>Sustainability attributes (e.g., recycled materials, energy efficiency)</li>
+          <li>Repair and maintenance information</li>
+          <li>End-of-life guidance</li>
+        </p>
+        <p class="project-content">
+          The system is designed to support both internal decision-making (e.g., product design and sustainability strategy) and external transparency, aligning with emerging regulations such as the EU’s Ecodesign for Sustainable Products Regulation (ESPR).
+        </p>
+
+        <img
+          src="assets/photos/Logi.jpg"
+          alt="Sonceboz"
+          class="project-photo"
+        />
+        
       </main>
     </div>
 
